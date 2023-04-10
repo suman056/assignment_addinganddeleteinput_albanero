@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+.two_div{
+  display: flex;
+  flex-direction: row;
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+.div_space{
+  width: 40px;
+  padding: 25px;
+}
+.div_value{
+ width: 100%;
+ 
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ 
+ overflow-x: auto;
+}
+.one_div{
+ 
+  border: 1px solid #9c3b0b;
+  background-color: #e5b310;
+  height: 100vh;
+  width:80vh;
+  border-radius: 12px;
+  
+}
+.two_value{
+  
+  border: 1px solid #32d5d2;
+  background-color: #32d5d2;
+  height: 100vh;
+  width:100vh;
+  border-radius: 12px;
+ 
+}
+.input_field{
+  border-radius: 4px;
+  border-color: antiquewhite;
+  background-color: #f4fbfb;
+}
+button{
+  border-radius: 100px;
+  background-color: #adafaf;
+}
+.bordervalue{
+  border-radius: 4px;
+  border: 2px solid rgb(210, 72, 72);
+ padding: 0px;
+  
+  text-align: center;
 }
